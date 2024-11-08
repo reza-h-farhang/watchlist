@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply !scrollbar !scrollbar-thumb-u-border-p !scrollbar-track-inherit !scrollbar-thumb-rounded-full !scrollbar-track-rounded-full scrollbar-w-1.5 scrollbar-h-[8px] box-border m-0 p-0;
+}
+
+input,
+input:focus input:focus-visible input:focus-within {
+  border: none;
+  outline: none;
+}
