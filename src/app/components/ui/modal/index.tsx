@@ -13,7 +13,7 @@ const Modal = ({ open, children, onChange, title }: TModal) => {
     open && (
       <>
         <div
-          className="fixed left-0 top-0 w-screen h-screen bg-black opacity-25 z-10"
+          className="fixed left-0 top-0 w-screen h-screen bg-black opacity-25 z-20"
           onClick={() => onChange(false)}
         ></div>
         <div className="px-4 fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-20 w-full">
